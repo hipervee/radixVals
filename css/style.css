@@ -1,0 +1,79 @@
+.grid,
+.container,
+.header table {
+    font-size: 14px;
+    font-family: Helvetica;
+}
+.container {
+    margin: 0 auto;
+    width: 390px;
+}
+.header {
+    font-weight: bold;
+    width: 372px;
+    padding: 5px 8px;
+    background-color: #F0F0F0;
+    border-bottom: 1px solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.grid,
+table {
+    width: 220px;
+}
+.grid {
+    float: right; height:193px;
+}
+#grid table {
+    width: 100%;
+}
+#grid table tr th {
+    width: 30px;
+    border: 1px solid #dddddd;
+}
+#grid table tr td {
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+#grid table tr td:first-child {
+    font-weight: bold;
+}
+.grid .form {
+    display: inline-block;
+    margin-left: 3px;
+    height: 30px;
+    margin-top: 12px;
+}
+.grid .form input[type="text"] {
+    width: 100px;
+}
+.result {
+    display: inline-block;
+    font-size: 33px;
+    margin: 10px 0px;
+}
+.gridLinks {
+    display: inline-block;
+    width: 168px;
+    height:193px;
+    float: left;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+.gridLinks ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.gridLinks ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    color: #136577;
+    font-weight: bold;
+}
+.gridLInks ul li label {
+    padding: 2px 14px 2px 2px;
+}
